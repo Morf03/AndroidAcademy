@@ -48,7 +48,7 @@ String emailSubject;
         intent.setData(Uri.parse("mailto:")); // only email apps should handle this
         intent.putExtra(Intent.EXTRA_EMAIL, addresses);
         intent.putExtra(Intent.EXTRA_SUBJECT, subject);
-        intent.putExtra(Intent.EXTRA_EMAIL, emailBody);
+        intent.putExtra(Intent.EXTRA_TEXT, emailBody);
         if (intent.resolveActivity(getPackageManager()) != null) {
             startActivity(intent);
         }else {
