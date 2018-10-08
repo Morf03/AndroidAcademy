@@ -12,6 +12,9 @@ public class SecondActivityActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.second_activity);
         textView5 =(TextView) findViewById(R.id.textView5);
-        String textView5 = getIntent().getStringExtra(TEXT);
+
+        String textView_intent = getIntent().getStringExtra(TEXT);
+        textView5.setText(textView_intent);
+
     }
 }
