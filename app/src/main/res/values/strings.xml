@@ -5,4 +5,7 @@
     <string name="andrstud">Android student</string>
     <string name="phpdev">Php developer</string>
     <string name="send_msg">Send message</string>
+    <string name="email_to_me">markell0308@mail.ru</string>
+    <string name="email_subject">Message from App</string>
+    <string name="str">markell0308@mail.ru</string>
 </resources>
