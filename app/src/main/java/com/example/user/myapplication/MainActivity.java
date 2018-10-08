@@ -19,6 +19,7 @@ EditText editText;
         setContentView(R.layout.activity_main);
 
         button = (Button)  findViewById(R.id.button);
+        editText =(EditText) findViewById(R.id.editText);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
