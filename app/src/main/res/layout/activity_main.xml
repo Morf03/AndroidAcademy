@@ -136,7 +136,7 @@
             android:layout_marginTop="@dimen/margin8dp"
             android:layout_marginBottom="@dimen/margin8dp"
             android:layout_gravity="end"
-            android:text="Send message" />
+            android:text="@string/send_msg" />
     </LinearLayout>
     </ScrollView>
 </LinearLayout>
