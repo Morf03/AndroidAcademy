@@ -6,11 +6,12 @@ import android.widget.TextView;
 
 public class SecondActivityActivity extends AppCompatActivity {
     public static final String TEXT = "TEXT";
-    TextView textView;
+    TextView textView5;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.second_activity);
-        String textView = getIntent().getStringExtra(TEXT);
+        textView5 =(TextView) findViewById(R.id.textView5);
+        String textView5 = getIntent().getStringExtra(TEXT);
     }
 }
