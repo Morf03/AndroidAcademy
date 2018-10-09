@@ -10,7 +10,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class AboutActivity extends AppCompatActivity {
 Button button;
 TextView textView5;
 EditText editText;
@@ -20,7 +20,7 @@ String emailSubject;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.about_activity);
 
         button = (Button)  findViewById(R.id.button);
         editText =(EditText) findViewById(R.id.editText);
